@@ -8,4 +8,4 @@ Please let us know if you find out a mistake or have any suggestions by e-mail: 
 
 If you find our survey useful for your research, please cite the following paper:
 
-![image](https://github.com/user-attachments/assets/e36cef77-1cab-4c5d-9978-177d61f75380)
+<img src="https://github.com/user-attachments/assets/e36cef77-1cab-4c5d-9978-177d61f75380" width="50%">
