@@ -1,11 +1,10 @@
 # LLM-For-Vulnerability-Detection
-A collection of papers and resources related to Large Language Models.
+A collection of papers and resources related to Large Language Models in Vulnerability Detection Techniques.
 
-The organization of papers refers to our survey "A Survey of Large Language Models". Paper page
+The organization of papers refers to our survey "Large Language Models in Software Security: A Survey of
+Vulnerability Detection Techniques and Insights".
 
-Please let us know if you find out a mistake or have any suggestions by e-mail: batmanfly@gmail.com
-
-(we suggest ccing another email francis_kun_zhou@163.com meanwhile, in case of any unsuccessful delivery issue.)
+Please let us know if you find out a mistake or have any suggestions by e-mail: zesheng@tamu.edu
 
 If you find our survey useful for your research, please cite the following paper:
 
