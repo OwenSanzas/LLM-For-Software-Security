@@ -1,6 +1,11 @@
 # LLM-For-Vulnerability-Detection
 
-A collection of papers and resources related to Large Language Models in Vulnerability Detection Techniques.
+A collection of papers and resources related to Large Language Models in：
+
+- Vulnerability Detection
+- Vulnerability Repair
+- Fuzz Testing & Vulnerability Reproduction
+- AI-Powered Automated Data Privacy Detection
 
 The organization of papers refers to our survey "Large Language Models in Software Security: A Survey of
 Vulnerability Detection Techniques and Insights".
@@ -17,7 +22,7 @@ If you find our survey useful for your research, please cite the following paper
 ## 🚀 Latest News:
 AIxCC is a competition that is exploring new LLM-driven system for vulnerability detection. We are happy to announce that our team is one of the finalists!
 
-If you are interested in this area, then these two challenges can be a very nice start for you:
+If you are interested in this area, then these two challenges can be a very nice start for you, make your own AI-powered system to detect bugs in the challenges!
 
 **Linux Kernel Challenge:**
 https://github.com/aixcc-public/challenge-001-exemplar
@@ -25,3 +30,18 @@ https://github.com/aixcc-public/challenge-001-exemplar
 **Nginx Challenge:**
 https://github.com/aixcc-public/challenge-004-nginx-cp
 
+
+## What's in this repository
+This repo provides a curated collection of research papers, datasets, tools, and benchmarks related to Large Language Models (LLMs) in vulnerability detection. It aims to help researchers and practitioners stay up to date with the latest advancements in this field.
+
+Specifically, the repository includes:
+
+📄 Survey and Research Papers – A categorized list of papers on LLM-based vulnerability detection, covering different techniques, evaluation methods, and insights.
+
+🛠 Tools and Frameworks – Open-source implementations and toolkits for leveraging LLMs in software security.
+
+🔍 Benchmarks and Datasets – Publicly available datasets and benchmarks for training and evaluating vulnerability detection models.
+
+🚀 Competitions and Challenges – Ongoing and past competitions, including AIxCC challenges, that provide real-world vulnerability detection tasks.
+
+We will continuously update the repository with new papers, tools, and resources to facilitate research and development in this exciting domain. 🚀

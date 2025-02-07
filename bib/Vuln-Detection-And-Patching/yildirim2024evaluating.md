@@ -1,0 +1,11 @@
+@inproceedings{yildirim2024evaluating,
+  title={Evaluating the Impact of Conventional Code Analysis Against Large Language Models in API Vulnerability Detection},
+  author={Y{\i}ld{\i}r{\i}m, Recep and Ayd{\i}n, Kerem and {\c{C}}etin, Or{\c{c}}un},
+  booktitle={European Interdisciplinary Cybersecurity Conference},
+  pages={57--64},
+  year={2024}
+}
+
+
+# Abstract:
+In the rapidly changing world of digital technologies, application programming interfaces (APIs) have become extremely important to allow different software applications to communicate with each other. This communication has greatly enhanced the capabilities and functionality of web applications. This shift towards using more APIs in software development marks a major change in how digital services connect with each other. However, this progress also brings certain security concerns. The increasing reliance on APIs underscores the importance of employing tools that allow early detection and remediation of security vulnerabilities. In this paper, we detail a study that engaged 10 static code analysers and four popular Large Language Models (LLMs), each queried with two unique prompts. Our focus was on assessing their ability to detect a compilation of 40 API vulnerabilities in the source code, specifically selected to represent each category within the OWASP Top 10 API Security Risks. Our results revealed significant variations in the performance of these tools. ChatGPT 4 emerged as the most effective LLM, with a detection rate of 62.5% for the first prompt and 42.5% for the second prompt. In contrast, LLaMA 2 showed the lowest effectiveness in both prompts. Meanwhile, static code analyser results showed a generally low detection rate of API vulnerabilities. Snyk led the group with a 25% detection rate, while several analysers such as pylint, Pyre, and Trivy did not detect any vulnerabilities. These findings indicate that while static code analysers are valuable in certain contexts, their effectiveness remains lower than LLMs when appropriately prompted.

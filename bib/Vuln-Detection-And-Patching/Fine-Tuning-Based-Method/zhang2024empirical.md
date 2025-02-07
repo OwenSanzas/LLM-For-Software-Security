@@ -1,0 +1,10 @@
+@article{zhang2024empirical,
+  title={An Empirical Study of Automated Vulnerability Localization with Large Language Models},
+  author={Zhang, Jian and Wang, Chong and Li, Anran and Sun, Weisong and Zhang, Cen and Ma, Wei and Liu, Yang},
+  journal={arXiv preprint arXiv:2404.00287},
+  year={2024}
+}
+
+# Abstract:
+
+Recently, Automated Vulnerability Localization (AVL) has attracted much attention, aiming to facilitate diagnosis by pinpointing the lines of code responsible for discovered vulnerabilities. Large Language Models (LLMs) have shown potential in various domains, yet their effectiveness in vulnerability localization remains underexplored. In this work, we perform the first comprehensive study of LLMs for AVL. Our investigation encompasses 10+ leading LLMs suitable for code analysis, including ChatGPT and various open-source models, across three architectural types: encoder-only, encoder-decoder, and decoder-only, with model sizes ranging from 60M to 16B parameters. We explore the efficacy of these LLMs using 4 distinct paradigms: zero-shot learning, one-shot learning, discriminative fine-tuning, and generative fine-tuning. Our evaluation framework is applied to the BigVul-based dataset for C/C++, and an additional dataset comprising smart contract vulnerabilities. The results demonstrate that discriminative fine-tuning of LLMs can significantly outperform existing learning-based methods for AVL, while other paradigms prove less effective or unexpectedly ineffective for the task. We also identify challenges related to input length and unidirectional context in fine-tuning processes for encoders and decoders. We then introduce two remedial strategies: the sliding window and the right-forward embedding, both of which substantially enhance performance. Furthermore, our findings highlight certain generalization capabilities of LLMs across Common Weakness Enumerations (CWEs) and different projects, indicating a promising pathway toward their practical application in vulnerability localization.

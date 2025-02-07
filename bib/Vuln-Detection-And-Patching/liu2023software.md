@@ -1,0 +1,11 @@
+@inproceedings{liu2023software,
+  title={Software vulnerability detection with gpt and in-context learning},
+  author={Liu, Zhihong and Liao, Qing and Gu, Wenchao and Gao, Cuiyun},
+  booktitle={2023 8th International Conference on Data Science in Cyberspace (DSC)},
+  pages={229--236},
+  year={2023},
+  organization={IEEE}
+}
+
+# Abstract:
+Code vulnerability detection is a software security analysis technique that focuses on recognizing and resolving possible code vulnerabilities and weaknesses. Its primary objective is to mitigate the chances of malicious attacks and system failures. Vulnerabilities encompass mistakes, defects, or insecure programming methodologies found within the code, which can lead to security risks, service denials, data leaks, and various other concerns. Previous research has predominantly focused on deep learning models such as VulDeePecker, Russell, and SySeVR. With the advent of large language models, impressive advancements have been made in various domains, including natural language generation, text classification, and sentiment analysis. However, there is currently no effective method for utilizing large language models in vulnerability detection. Therefore, this study explores and validates the application of such models for code vulnerability detection. In this paper we present a context-based learning approach to enhance the capability of code vulnerability detection named VUL-GPT. Our method combines code retrieval and code analysis, leveraging in-context learning to improve the performance of the GPT model in vulnerability detection. Specifically, we use GPT to generate analysis content for the test code and employ code retrieval methods such as BM-25 and TF-IDF to retrieve the most similar code snippet and its vulnerability information from the training set. Subsequently, we input them along with the test code and its analysis into the GPT model, leveraging the contextual learning ability of the large language model for vulnerability detection. Our experiments demonstrate that combining with code retrieval and code analysis, the GPT models can detect code vulnerability detection more effectively.

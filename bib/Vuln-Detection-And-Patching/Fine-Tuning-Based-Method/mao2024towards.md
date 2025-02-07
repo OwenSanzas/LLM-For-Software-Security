@@ -1,0 +1,9 @@
+@article{mao2024towards,
+  title={Towards Effectively Detecting and Explaining Vulnerabilities Using Large Language Models},
+  author={Mao, Qiheng and Li, Zhenhao and Hu, Xing and Liu, Kui and Xia, Xin and Sun, Jianling},
+  journal={arXiv preprint arXiv:2406.09701},
+  year={2024}
+}
+
+# Abstract:
+Software vulnerabilities pose significant risks to the security and integrity of software systems. Prior studies have proposed a series of approaches to vulnerability detection using deep learning or pre-trained models. However, there is still a lack of vulnerability's detailed explanation for understanding apart from detecting its occurrence. Recently, large language models (LLMs) have shown a remarkable capability in the comprehension of complicated context and content generation, which brings opportunities for the detection and explanation of vulnerabilities of LLMs. In this paper, we conduct a comprehensive study to investigate the capabilities of LLMs in detecting and explaining vulnerabilities and propose LLMVulExp, a framework that utilizes LLMs for vulnerability detection and explanation. Under specialized fine-tuning for vulnerability explanation, LLMVulExp not only detects the types of vulnerabilities in the code but also analyzes the code context to generate the cause, location, and repair suggestions for these vulnerabilities. We find that LLMVulExp can effectively enable the LLMs to perform vulnerability detection (e.g., over 90% F1 score on SeVC dataset) and explanation. We also explore the potential of using advanced strategies such as Chain-of-Thought (CoT) to guide the LLMs concentrating on vulnerability-prone code and achieve promising results.

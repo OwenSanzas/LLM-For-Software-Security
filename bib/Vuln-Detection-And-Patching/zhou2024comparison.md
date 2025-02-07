@@ -1,0 +1,9 @@
+@article{zhou2024comparison,
+  title={Comparison of static application security testing tools and large language models for repo-level vulnerability detection},
+  author={Zhou, Xin and Tran, Duc-Manh and Le-Cong, Thanh and Zhang, Ting and Irsan, Ivana Clairine and Sumarlin, Joshua and Le, Bach and Lo, David},
+  journal={arXiv preprint arXiv:2407.16235},
+  year={2024}
+}
+
+# Abstract:
+Software vulnerabilities pose significant security challenges and potential risks to society, necessitating extensive efforts in automated vulnerability detection. There are two popular lines of work to address automated vulnerability detection. On one hand, Static Application Security Testing (SAST) is usually utilized to scan source code for security vulnerabilities, especially in industries. On the other hand, deep learning (DL)-based methods, especially since the introduction of large language models (LLMs), have demonstrated their potential in software vulnerability detection. However, there is no comparative study between SAST tools and LLMs, aiming to determine their effectiveness in vulnerability detection, understand the pros and cons of both SAST and LLMs, and explore the potential combination of these two families of approaches. In this paper, we compared 15 diverse SAST tools with 12 popular or state-of-the-art open-source LLMs in detecting software vulnerabilities from repositories of three popular programming languages: Java, C, and Python. The experimental results showed that SAST tools obtain low vulnerability detection rates with relatively low false positives, while LLMs can detect up 90% to 100% of vulnerabilities but suffer from high false positives. By further ensembling the SAST tools and LLMs, the drawbacks of both SAST tools and LLMs can be mitigated to some extent. Our analysis sheds light on both the current progress and future directions for software vulnerability detection.

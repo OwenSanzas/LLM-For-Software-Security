@@ -1,0 +1,8 @@
+@article{taghavi2024using,
+  title={Using large language models to better detect and handle software vulnerabilities and cyber security threats},
+  author={Taghavi, Seyed Mohammad and Feyzi, Farid},
+  year={2024}
+}
+
+# Abstract:
+Large Language Models (LLMs) have emerged as powerful tools in the domain of software vulnerability and cybersecurity tasks, offering promising capabilities in detecting and handling security threats. This article explores the utilization of LLMs in various aspects of cybersecurity, including vulnerability detection, threat prediction, and automated code repair. We explain the concept of LLMs, highlighting their various applications, and evaluates their effectiveness and challenges through literature review. We explore the effectiveness of various LLMs across different cybersecurity domains, showcasing their pro ciency in tasks like malware detection and code summarization. Comparing LLMs to traditional methods, our work highlights their superior performance in identifying vulnerabilities and proposing xes. Furthermore, we outline the work ow of LLM models, emphasizing their integration into cyber threat detection frameworks and incident response systems. We also discuss complementary methods and tools that enhance LLMs' capabilities, including static and dynamic code analyzers. Additionally, we synthesize ndings from previous research, demonstrating how the utilization of LLMs has signi cantly enhanced productivity in identifying and addressing software vulnerabilities and cybersecurity threats. Finally, the study offers insights into optimizing the implementation of LLMs based on the lessons learned from existing literature.

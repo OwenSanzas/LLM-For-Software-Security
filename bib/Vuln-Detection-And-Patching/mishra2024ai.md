@@ -1,0 +1,9 @@
+@phdthesis{mishra2024ai,
+  title={AI-Augmented Vulnerability Detection and Patching},
+  author={Mishra, Poornaditya},
+  year={2024}
+}
+
+
+# Abstract:
+Software vulnerabilities remain a persistent threat, and the increasing use of AI-generated code introduces new security challenges. While Large Language Models (LLMs) excel at code generation, they often struggle to consistently produce secure code or apply targeted vulnerability fixes. This work proposes a novel system that bridges this gap by combining the strengths of graph-based deep learning and LLMs for automated vulnerability detection and patching.We first model vulnerability detection as graph representation learning via Graph Attention Network (GAT) to accurately identify vulnerabilities in code, leveraging the rich structural information encoded in Code Property Graphs (CPGs) and Abstract Syntax Trees (ASTs). Our system then leverages the GAT's predictions to guide an LLM, providing both the vulnerability type and the precise location within the code requiring a patch. This targeted guidance enables the LLM to generate more secure and contextually appropriate code modifications.Through experiments on a dataset of real-world vulnerable code, we demonstrate the effectiveness of our approach in detecting critical vulnerabilities like SQL injection and session hijacking. We further evaluate the quality of the LLM-generated patches, showing a significant improvement in security when guided by our system. This research paves the way for more secure and reliable AI-assisted software development by integrating deep learning-based vulnerability analysis with the generative capabilities of LLMs.

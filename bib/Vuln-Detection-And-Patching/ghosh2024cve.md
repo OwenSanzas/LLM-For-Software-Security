@@ -1,0 +1,9 @@
+@article{ghosh2024cve,
+  title={CVE-LLM: Automatic vulnerability evaluation in medical device industry using large language models},
+  author={Ghosh, Rikhiya and Farri, Oladimeji and von Stockhausen, Hans-Martin and Schmitt, Martin and Vasile, George Marica},
+  journal={arXiv preprint arXiv:2407.14640},
+  year={2024}
+}
+
+# Abstract:
+The healthcare industry is currently experiencing an unprecedented  wave of cybersecurity attacks, impacting millions of individuals. With the discovery of thousands of vulnerabilities each month,  there is a pressing need to drive the automation of vulnerability  assessment processes for medical devices, facilitating rapid mitigation efforts. Generative AI systems have revolutionized various  industries, offering unparalleled opportunities for automation and  increased efficiency. This paper presents a solution leveraging  Large Language Models (LLMs) to learn from historical evaluations  of vulnerabilities for the automatic assessment of vulnerabilities in  the medical devices industry. This approach is applied within the  portfolio of a single manufacturer, taking into account device characteristics, including existing security posture and controls. The  primary contributions of this paper are threefold. Firstly, it provides  a detailed examination of the best practices for training a vulnerability Language Model (LM) in an industrial context. Secondly, it  presents a comprehensive comparison and insightful analysis of the  effectiveness of Language Models in vulnerability assessment. Finally, it proposes a new human-in-the-loop framework to expedite  vulnerability evaluation processes.
