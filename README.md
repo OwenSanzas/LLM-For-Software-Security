@@ -14,7 +14,7 @@ If you find our survey useful for your research, please cite the following paper
 </p>
 
 
-## Latest News:
+## 🚀 Latest News:
 AIxCC is a competition that is exploring new LLM-driven system for vulnerability detection. We are happy to announce that our team is one of the finalists!
 
 If you are interested in this area, then these two challenges can be a very nice start for you:
