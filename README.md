@@ -26,7 +26,8 @@ If you find our survey useful for your research, please cite the following paper
       <a href="https://github.com/Owensanzas">
         <img src="https://github.com/OwenSanzas.png" width="100px;" alt="OwenSanzas"/>
         <br />
-        <sub><b>Your Name</b></sub>
+        <sub><b>Ze Sheng</b></sub>
+        <sub><b>Texas A&M University</b></sub>
       </a>
     </td>
     <td align="center">
