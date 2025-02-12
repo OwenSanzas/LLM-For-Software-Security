@@ -18,6 +18,27 @@ If you find our survey useful for your research, please cite the following paper
   <img src="https://github.com/user-attachments/assets/e36cef77-1cab-4c5d-9978-177d61f75380" width="50%">
 </p>
 
+## Contributors
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/Owensanzas">
+        <img src="https://github.com/OwenSanzas.png" width="100px;" alt="OwenSanzas"/>
+        <br />
+        <sub><b>Your Name</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/collaborator_username">
+        <img src="https://github.com/collaborator_username.png" width="100px;" alt="collaborator_username"/>
+        <br />
+        <sub><b>Collaborator Name</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
 
 ## 🚀 Latest News:
 AIxCC is a competition that is exploring new LLM-driven system for vulnerability detection. We are happy to announce that our team is one of the finalists!
