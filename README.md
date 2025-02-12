@@ -24,7 +24,7 @@ If you find our survey useful for your research, please cite the following paper
   <tr>
     <td align="center">
       <a href="https://github.com/Owensanzas">
-        <img src="https://github.com/OwenSanzas.png" width="100px" style="border-radius: 50%;" alt="OwenSanzas"/>
+        <img src="https://github.com/OwenSanzas.png" width="100px" style="border-radius: 50%;" />
         <br />
         <sub><b>Ze Sheng</b></sub>
         <br />
