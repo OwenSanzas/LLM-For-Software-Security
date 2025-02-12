@@ -20,31 +20,14 @@ If you find our survey useful for your research, please cite the following paper
 
 ## Contributors
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/Owensanzas">
-        <div style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; display: inline-block;">
-          <img src="https://github.com/OwenSanzas.png" width="100px" style="object-fit: cover;">
-        </div>
-        <br />
-        <sub><b>Ze Sheng</b></sub>
-        <br />
-        <sub>Texas A&M University</sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/collaborator_username">
-        <img src="https://github.com/collaborator_username.png" width="100px" style="border-radius: 50%;" alt="collaborator_username"/>
-        <br />
-        <sub><b>Collaborator Name</b></sub>
-        <br />
-        <sub>Institution Name</sub>
-      </a>
-    </td>
-  </tr>
-</table>
-</table>
+<div style="display: flex; gap: 10px;">
+  <a href="https://github.com/OwenSanzas">
+    <img src="https://avatars.githubusercontent.com/OwenSanzas" width="50px" height="50px" style="border-radius: 50%"/>
+  </a>
+  <a href="https://github.com/collaborator_username">
+    <img src="https://avatars.githubusercontent.com/collaborator_username" width="50px" height="50px" style="border-radius: 50%"/>
+  </a>
+</div>
 
 
 ## 🚀 Latest News:
