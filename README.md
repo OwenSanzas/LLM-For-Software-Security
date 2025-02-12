@@ -24,20 +24,24 @@ If you find our survey useful for your research, please cite the following paper
   <tr>
     <td align="center">
       <a href="https://github.com/Owensanzas">
-        <img src="https://github.com/OwenSanzas.png" width="100px;" alt="OwenSanzas"/>
+        <img src="https://github.com/OwenSanzas.png" width="100px" style="border-radius: 50%;" alt="OwenSanzas"/>
         <br />
         <sub><b>Ze Sheng</b></sub>
-        <sub><b>Texas A&M University</b></sub>
+        <br />
+        <sub>Texas A&M University</sub>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/collaborator_username">
-        <img src="https://github.com/collaborator_username.png" width="100px;" alt="collaborator_username"/>
+        <img src="https://github.com/collaborator_username.png" width="100px" style="border-radius: 50%;" alt="collaborator_username"/>
         <br />
         <sub><b>Collaborator Name</b></sub>
+        <br />
+        <sub>Institution Name</sub>
       </a>
     </td>
   </tr>
+</table>
 </table>
 
 
