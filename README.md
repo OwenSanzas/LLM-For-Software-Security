@@ -24,8 +24,17 @@ If you find our survey useful for your research, please cite the following paper
   <a href="https://github.com/OwenSanzas">
     <img src="https://avatars.githubusercontent.com/OwenSanzas" width="50px" height="50px" style="border-radius: 50%"/>
   </a>
-  <a href="https://github.com/collaborator_username">
-    <img src="https://avatars.githubusercontent.com/collaborator_username" width="50px" height="50px" style="border-radius: 50%"/>
+  <a href="https://github.com/zchengchen">
+    <img src="https://avatars.githubusercontent.com/zchengchen" width="50px" height="50px" style="border-radius: 50%"/>
+  </a>
+  <a href="https://github.com/shuninggu">
+    <img src="https://avatars.githubusercontent.com/shuninggu" width="50px" height="50px" style="border-radius: 50%"/>
+  </a>
+  <a href="https://github.com/SeanLmax">
+    <img src="https://avatars.githubusercontent.com/SeanLmax" width="50px" height="50px" style="border-radius: 50%"/>
+  </a>
+  <a href="https://github.com/MF0-ANT1SHY">
+    <img src="https://avatars.githubusercontent.com/MF0-ANT1SHY" width="50px" height="50px" style="border-radius: 50%"/>
   </a>
 </div>
 
