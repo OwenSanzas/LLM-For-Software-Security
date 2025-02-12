@@ -1,4 +1,4 @@
-# LLM-For-Vulnerability-Detection
+# LLM-For-Software-Security
 
 A collection of papers and resources related to Large Language Models in：
 
