@@ -66,3 +66,6 @@ Specifically, the repository includes:
 🚀 Competitions and Challenges – Ongoing and past competitions, including AIxCC challenges, that provide real-world vulnerability detection tasks.
 
 We will continuously update the repository with new papers, tools, and resources to facilitate research and development in this exciting domain. 🚀
+
+## Latest Update
+2025-03-24 20:49:40
