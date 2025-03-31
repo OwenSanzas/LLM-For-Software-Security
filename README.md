@@ -40,6 +40,9 @@ If you find our survey useful for your research, please cite the following paper
 
 Want to join us? Feel free to email zesheng@tamu.edu with your name and organization!
 
+## Latest Update
+2025-03-24 20:49:40
+
 ## 🚀 Latest News:
 AIxCC is a competition that is exploring new LLM-driven system for vulnerability detection. We are happy to announce that our team is one of the finalists!
 
@@ -67,5 +70,3 @@ Specifically, the repository includes:
 
 We will continuously update the repository with new papers, tools, and resources to facilitate research and development in this exciting domain. 🚀
 
-## Latest Update
-2025-03-24 20:49:40
