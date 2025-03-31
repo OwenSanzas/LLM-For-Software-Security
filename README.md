@@ -41,7 +41,7 @@ If you find our survey useful for your research, please cite the following paper
 Want to join us? Feel free to email zesheng@tamu.edu with your name and organization!
 
 ## Latest Update
-2025-03-24 20:49:40
+2025-03-24 20:49:40 [SOSP'24]If At First You Don’t Succeed, Try, Try, Again...? Insights and LLM-informed Tooling for Detecting Retry Bugs in Software Systems
 
 ## 🚀 Latest News:
 AIxCC is a competition that is exploring new LLM-driven system for vulnerability detection. We are happy to announce that our team is one of the finalists!
