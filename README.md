@@ -43,6 +43,8 @@ Want to join us? Feel free to email zesheng@tamu.edu with your name and organiza
 ## Latest Update
 2025-03-24 20:49:40 [SOSP'24]If At First You Don’t Succeed, Try, Try, Again...? Insights and LLM-informed Tooling for Detecting Retry Bugs in Software Systems
 
+2025-04-01 21:30:54 Add LLM-Fuzz papers [here](https://github.com/SeanLmax/LLM-For-Software-Security/blob/SeanLmax-patch-1/bib/LLM-Fuzzing/README.md#here-are-all-papers-you-want).
+
 ## 🚀 Latest News:
 AIxCC is a competition that is exploring new LLM-driven system for vulnerability detection. We are happy to announce that our team is one of the finalists!
 

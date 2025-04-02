@@ -1,19 +1,65 @@
 # Here are all Papers you want!
 
-## [SOSP'24]If At First You Don’t Succeed, Try, Try, Again...? Insights and LLM-informed Tooling for Detecting Retry Bugs in Software Systems
+## Survey paper
+### [FSE'24]When Fuzzing Meets LLMs: Challenges and Opportunities
+📄[paper](https://dl.acm.org/doi/pdf/10.1145/3663529.3663784)
+#### Abstract
+Fuzzing, a widely-used technique for bug detection, has seen advancements through Large Language Models (LLMs). Despite their potential, LLMs face specific challenges in fuzzing. In this paper, we identified five major challenges of LLM-assisted fuzzing. To support our findings, we revisited the most recent papers from top-tier conferences, confirming that these challenges are widespread. As a remedy, we propose some actionable recommendations to help improve applying LLM in Fuzzing and conduct preliminary evaluations on DBMS fuzzing. The results demonstrate that our recommendations effectively address the identified challenges.
 
-[paper](https://dl.acm.org/doi/pdf/10.1145/3694715.3695971)
-[code](https://github.com/bastoica/wasabi/)
-[slides](https://bastoica.github.io/files/talks/2024_sosp_talk.pdf)
-### Abstract
-Retry—the re-execution of a task on failure—is a common mechanism to enable resilient software systems. Yet, despite
-its commonality and long history, retry remains difficult to
-implement and test.
-Guided by our study of real-world retry issues, we propose
-a novel suite of static and dynamic techniques to detect retry
-problems in software. We find that the ad-hoc nature of retry
-implementation poses challenges for traditional program
-analysis but can be well suited for large language models;
-and that carefully repurposing existing unit tests can, along
-with fault injection, expose various types of retry problems
+## Original research paper
 
+### [SOSP'24]If At First You Don’t Succeed, Try, Try, Again...? Insights and LLM-informed Tooling for Detecting Retry Bugs in Software Systems
+📄[paper](https://dl.acm.org/doi/pdf/10.1145/3694715.3695971) 
+[:octocat:code](https://github.com/bastoica/wasabi/) 
+💻[slides](https://bastoica.github.io/files/talks/2024_sosp_talk.pdf)
+#### Abstract
+Retry—the re-execution of a task on failure—is a common mechanism to enable resilient software systems. Yet, despite its commonality and long history, retry remains difficult to implement and test.
+Guided by our study of real-world retry issues, we propose a novel suite of static and dynamic techniques to detect retry problems in software. We find that the ad-hoc nature of retry
+implementation poses challenges for traditional program analysis but can be well suited for large language models;
+and that carefully repurposing existing unit tests can, along with fault injection, expose various types of retry problems
+
+### [[USENIX Security'24]Fuzzing BusyBox: Leveraging LLM and Crash Reuse for Embedded Bug Unearthing](https://www.usenix.org/conference/usenixsecurity24/presentation/asmita)
+📄[paper](https://www.usenix.org/system/files/sec24fall-prepub-1014-asmita.pdf) 
+[:octocat:code](https://github.com/asmitaj08/FuzzingBusyBox_LLM) 
+💻[slides](https://www.usenix.org/system/files/usenixsecurity24_slides-asmita.pdf) 
+🎥[talk](https://www.youtube.com/watch?v=amzgAEWqQ5s)
+#### Abstract
+BusyBox, an open-source software bundling over 300 essential Linux commands into a single executable, is ubiquitous in Linux-based embedded devices. Vulnerabilities in BusyBox can have far-reaching consequences, affecting a wide array of devices. This research, driven by the extensive use of BusyBox, delved into its analysis. The study revealed the prevalence of older BusyBox versions in real-world embedded products, prompting us to conduct fuzz testing on BusyBox. Fuzzing, a pivotal software testing method, aims to induce crashes that are subsequently scrutinized to uncover vulnerabilities. Within this study, we introduce two techniques to fortify software testing. The first technique enhances fuzzing by leveraging Large Language Models (LLM) to generate target-specific initial seeds. Our study showed a substantial increase in crashes when using LLM-generated initial seeds, highlighting the potential of LLM to efficiently tackle the typically labor-intensive task of generating target-specific initial seeds. The second technique involves repurposing previously acquired crash data from similar fuzzed targets before initiating fuzzing on a new target. This approach streamlines the time-consuming fuzz testing process by providing crash data directly to the new target before commencing fuzzing. We successfully identified crashes in the latest BusyBox target without conducting traditional fuzzing, emphasizing the effectiveness of LLM and crash reuse techniques in enhancing software testing and improving vulnerability detection in embedded systems. Additionally, manual triaging was performed to identify the nature of crashes in the latest BusyBox.
+
+### [[USENIX Security'24]LLM-Fuzzer: Scaling Assessment of Large Language Model Jailbreaks](https://www.usenix.org/conference/usenixsecurity24/presentation/yu-jiahao)
+📄[paper](https://www.usenix.org/system/files/usenixsecurity24-yu-jiahao.pdf) 
+[:octocat:code](https://github.com/sherdencooper/GPTFuzz) 
+💻[slides](https://www.usenix.org/system/files/usenixsecurity24_slides-yu-jiahao.pdf) 
+🎥[talk](https://www.youtube.com/watch?v=Glj0_5_BI6A) 
+#### Abstract
+The jailbreak threat poses a significant concern for Large Language Models (LLMs), primarily due to their potential to generate content at scale. If not properly controlled, LLMs can be exploited to produce undesirable outcomes, including the dissemination of misinformation, offensive content, and other forms of harmful or unethical behavior. To tackle this pressing issue, researchers and developers often rely on red-team efforts to manually create adversarial inputs and prompts designed to push LLMs into generating harmful, biased, or inappropriate content. However, this approach encounters serious scalability challenges.
+To address these scalability issues, we introduce an automated solution for large-scale LLM jailbreak susceptibility assessment called LLM-Fuzzer. Inspired by fuzz testing, LLM-Fuzzer uses human-crafted jailbreak prompts as starting points. By employing carefully customized seed selection strategies and mutation mechanisms, LLM-Fuzzer generates additional jailbreak prompts tailored to specific LLMs. Our experiments show that LLM-Fuzzer-generated jailbreak prompts demonstrate significantly increased exploitability and transferability. This highlights that many open-source and commercial LLMs suffer from severe jailbreak issues, even after safety fine-tuning.
+
+### [[IEEE S&P'24]LLMIF: Augmented Large Language Model for Fuzzing IoT Devices](https://ieeexplore.ieee.org/document/10646659)
+📄[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10646659) 
+[:octocat:code](https://github.com/anonymousAnalyst22/LLMIF) 
+🎥[talk](https://www.youtube.com/watch?v=DZN4R45FmCI)
+#### Abstract
+Despite the efficacy of fuzzing in verifying the implementation correctness of network protocols, existing IoT protocol fuzzing approaches grapple with several limitations, including obfuscated message formats, unresolved message dependencies, and a lack of evaluations on the testing cases. These limitations significantly curtail the capabilities of IoT fuzzers in vulnerability identification. In this work, we show that the protocol specification contains fruitful descriptions of protocol messages, which can be used to overcome the above limitations and guide IoT protocol fuzzing. To automate the specification analysis, we augment the large language model with the specification contents, and drive it to perform two tasks (i.e., protocol information extraction, and device response reasoning). We further design and implement a fuzzing algorithm, LLMIF, which incorporates the LLM into IoT fuzzing. Finally, we select Zigbee as the target protocol and initiate comprehensive evaluations. The evaluation result shows that LLMIF successfully addressed the above limitations. Compared with the existing Zigbee fuzzers, it increases the protocol message coverage and code coverage by 55.2% and 53.9%, respectively. Besides the enhanced coverage, LLMIF unearthed 11 vulnerabilities on real-world Zigbee devices, which include eight previously unknown vulnerabilities. Seven of them are not covered by the existing Zigbee fuzzers.
+
+### [[NDSS'24]Large Language Model guided Protocol Fuzzing](https://www.ndss-symposium.org/ndss-paper/large-language-model-guided-protocol-fuzzing/)
+📄[paper](https://www.ndss-symposium.org/wp-content/uploads/2024-556-paper.pdf) 
+[:octocat:code](https://github.com/ChatAFLndss/ChatAFL) 
+🎥[talk](https://www.youtube.com/watch?v=31JPvlrXfQ0)
+#### Abstract
+How to find security flaws in a protocol implementation without a machine-readable specification of the protocol? Facing the internet, protocol implementations are particularly security-critical software systems where inputs must adhere to a specific structure and order that is often informally specified in hundreds of pages in natural language (RFC). Without some machine-readable version of that protocol, it is difficult to automatically generate valid test inputs for its implementation that follow the required structure and order. It is possible to partially alleviate this challenge using mutational fuzzing on a set of recorded message sequences as seed inputs. However, the set of available seeds is often quite limited and will hardly cover the great diversity of protocol states and input structures. In this paper, we explore the opportunities of systematic interaction with pre-trained large language models (LLMs), which have ingested millions of pages of human-readable protocol specifications, to draw out machine-readable information about the protocol that can be used during protocol fuzzing. We use the knowledge of the LLMs about protocol message types for well-known protocols. We also checked the LLM’s capability in detecting “states” for stateful protocol implementations by generating sequences of messages and predicting response codes. Based on these observations, we have developed an LLM-guided protocol implementation fuzzing engine. Our protocol fuzzer CHATAFL constructs grammars for each message type in a protocol, and then mutates messages or predicts the next messages in a message sequence via interactions with LLMs. Experiments on a wide range of real-world protocols from PROFUZZBENCH show significant efficacy in state and code coverage. Our LLM- guided stateful fuzzer was compared with state-of-the-art fuzzers AFLNET and NSFUZZ. CHATAFL covers 47.60% and 42.69% more state transitions, 29.55% and 25.75% more states, and 5.81% and 6.74% more code, respectively. Apart from enhanced coverage, CHATAFL discovered nine distinct and previously unknown vulnerabilities in widely-used and extensively-tested protocol implementations while AFLNET and NSFUZZ only discovered three and four of them, respectively.
+
+### [ISSTA'24]Fuzzing JavaScript Interpreters with Coverage-Guided Reinforcement Learning for LLM-Based Mutation
+📄[paper](https://dl.acm.org/doi/pdf/10.1145/3650212.3680389) 
+[:octocat:code](https://github.com/seclab-yonsei/CovRL-Fuzz)
+#### Abstract
+JavaScript interpreters, crucial for modern web browsers, require an effective fuzzing method to identify security-related bugs. However, the strict grammatical requirements for input present significant challenges. Recent efforts to integrate language models for context- aware mutation in fuzzing are promising but lack the necessary coverage guidance to be fully effective. This paper presents a novel technique called CovRL (Coverage-guided Reinforcement Learning) that combines Large Language Models (LLMs) with Reinforcement Learning (RL) from coverage feedback. Our fuzzer, CovRL-Fuzz, integrates coverage feedback directly into the LLM by leveraging the Term Frequency-Inverse Document Frequency (TF-IDF) method to construct a weighted coverage map. This map is key in calculating the fuzzing reward, which is then applied to the LLM-based mutator through reinforcement learning. CovRL-Fuzz, through this approach, enables the generation of test cases that are more likely to discover new coverage areas, thus improving bug detection while minimizing syntax and semantic errors, all without needing extra post-processing. Our evaluation results show that CovRL-Fuzz outperforms the state-of-the-art fuzzers in enhancing code coverage and identifying bugs in JavaScript interpreters: CovRL-Fuzz identified 58 real-world security-related bugs in the latest JavaScript interpreters, including 50 previously unknown bugs and 15 CVEs.
+
+
+### [ICSE'23]Large Language Models are Few-shot Testers: Exploring LLM-based General Bug Reproduction
+📄[paper](https://arxiv.org/pdf/2209.11515)
+#### Abstract
+Many automated test generation techniques have been developed to aid developers with writing tests. To facilitate full automation, most existing techniques aim to either increase coverage, or generate exploratory inputs. However, existing test generation techniques largely fall short of achieving more semantic objectives, such as generating tests to reproduce a given bug report. Reproducing bugs is nonetheless important, as our empirical study shows that the number of tests added in open source repositories due to issues was about 28% of the corresponding project test suite size. Meanwhile, due to the difficulties of transforming the expected program semantics in bug reports into test oracles, existing failure reproduction techniques tend to deal exclusively with program crashes, a small subset of all bug reports. To automate test generation from general bug reports, we propose LIBRO, a framework that uses Large Language Models (LLMs), which have been shown to be capable of performing code-related tasks. Since LLMs themselves cannot execute the target buggy code, we focus on post-processing steps that help us discern when LLMs are effective, and rank the produced tests according to their validity. Our evaluation of LIBRO shows that, on the widely studied Defects4J benchmark, LIBRO can generate failure reproducing test cases for 33% of all studied cases (251 out of 750), while suggesting a bug reproducing test in first place for 149 bugs. To mitigate data contamination, we also evaluate LIBRO against 31 bug reports submitted after the collection of the LLM training data terminated: LIBRO produces bug reproducing tests for 32% of the studied bug reports. Overall, our results show LIBRO has the potential to significantly enhance developer efficiency by automatically generating tests from bug reports.
+
+## Useful Link
+- [Github-FuzzingPaper](https://github.com/wcventure/FuzzingPaper)
